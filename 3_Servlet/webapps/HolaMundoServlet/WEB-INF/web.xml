@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+   version="2.5"> 
+
+	<!-- Nombre para la consola del Tomcat -->
+	<display-name>Hola Mundo con Servlet</display-name>
+	
+	<!-- Declaramos un Servlet indicando su nombre y la clase que tiene asociada -->
+	<servlet>
+		<servlet-name>Servlet1</servlet-name>
+		<servlet-class>ServletHolaMundo</servlet-class>
+	</servlet>
+	
+	<!-- Mapeamos cada servlet declarado con un patrón de url. Cuando se pida esa url, se llamará a ese servlet -->
+	<servlet-mapping>
+		<servlet-name>Servlet1</servlet-name>
+		<url-pattern>/urlServlet1</url-pattern><!-- Debe coincidir con el nombre del <servlet> -->
+	</servlet-mapping>
+</web-app>
