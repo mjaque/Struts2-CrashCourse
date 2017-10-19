@@ -14,7 +14,7 @@ pageEncoding="UTF-8"%>
 		double num = Math.random();
 		if (num > 0.5) {
 	%>
-		
+		<p>Has tenido suerte. Ha salido <%= num %>.</p>
 	<%
 		} else {
 	%>
@@ -23,10 +23,10 @@ pageEncoding="UTF-8"%>
 		}
 	%>
 
-	<p><a href="<%= request.getRequestURI() %>">Recargar esta página</a>.</p>
-	<p><a href="/servlet2">Otra página (servlet)</a>.</p>
+	<p><a href="servlet2">Otra página (servlet)</a>... si la hubiera</p>
 	
 	<!-- Podemos usar variables puestas por el servlet -->
 	<p>El mensaje es <%= request.getAttribute("mensaje") %> y el número entero es <%= request.getAttribute("valorEntero") %>.</p>
+	<p>Desarrollado por <a href="http://escueladeprogramacion.es">escueladeprogramacion.es</a></p>
 </body>
 </html>

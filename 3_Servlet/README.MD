@@ -10,7 +10,7 @@ La documentación del Servlet de JavaEE está en http://docs.oracle.com/javaee/7
 4. Crea los directorios: <dir_proyecto>/webapps/HolaMundoServlet/WEB-INF/classes.
 5. Mueve ServletHolaMundo.class al directorio que acabas de crear.
 6. Crea el fichero <dir_proyecto>/webapps/HolaMundoServlet/WEB-INF/web.xml. Mira los comentarios del fichero para enteder lo que hace.
-5. **Publica el Servlet**: Para ello, copia <dir_proyecto>/webapps/HolaMundoServlet al directorio **<dir_tomcat>/webapps/.
+5. **Publica el Servlet**: Para ello, copia <dir_proyecto>/webapps/HolaMundoServlet al directorio **<dir_tomcat>/webapps/**.
 6. Reinicia Apache Tomcat. Para ello, desde el directorio <dir_tomcat>/bin lanza los comandos ./shutdown.sh y ./startup.sh.
 7. Comprueba el funcionamiento del Servlet navegando a la URL **http://localhost:8080/HolaMundoServlet/urlServlet1**. Debe aparecer el mensaje "¡Hola Mundo! - Soy un Servlet".
 
