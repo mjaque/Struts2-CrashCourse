@@ -1,4 +1,4 @@
-# Strut2-CursoRapido
+# Struts2-CursoRapido
 Curso Rápido de Struts2
 
 Vamos a ir haciendo proyectos de ejemplo desde el principio. Así podremos entender bien la estructura de Struts2.
