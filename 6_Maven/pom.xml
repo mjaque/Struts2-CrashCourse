@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	 xmlns="http://maven.apache.org/POM/4.0.0"
+	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	
+	<!-- Referencia: https://maven.apache.org/guides/introduction/introduction-to-the-pom.html -->
+	
+	<!-- Modelo de POM utilizado -->
+	<modelVersion>4.0.0</modelVersion>
+	
+	<!-- Identificación completa (grupo, artefacto, versión) del "artefacto" que crea este proyecto -->
+	<groupId>es.escueladeprogramacion</groupId>
+	<artifactId>Struts2Maven</artifactId>
+	<version>1.0.0</version>
+	<name>Ejemplo de Formularios de Struts</name>
+	<packaging>war</packaging>	<!-- Formato del paquete a generar (jar, war, ear...) -->
+	<description>El ejemplo básico de uso de Maven con Struts2.</description>
+	
+	<!-- Establecemos las propiedades generales del proyecto para su compilación -->
+	<properties>
+		<!-- El código del proyecto tiene codificación UTF-8 -->
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	
+	<!-- Instrucciones de Compilación -->
+	<build>
+		<!-- Nombre del paquete a generar. 
+		     Será también el nombre del proyecto en Apache Tomcat -->
+		<finalName>Struts2Maven</finalName>
+		
+	</build>
+	
+	<!-- Librerías de las que depende el proyecto -->
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.apache.struts/struts2-core -->
+		<dependency>
+			<groupId>org.apache.struts</groupId>
+			<artifactId>struts2-core</artifactId>
+			<version>2.5.13</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>2.9.1</version>
+		</dependency>
+	</dependencies>
+	
+</project>

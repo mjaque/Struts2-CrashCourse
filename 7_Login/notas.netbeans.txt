@@ -1,0 +1,5 @@
+Crear un proyecto Maven > Enterprise Application
+	Requiere configurar Apache Tomcat como Servidor de Aplicaciones.
+		Dar de alta usuario en conf/tomcat-users.xml
+
+https://netbeans.org/kb/docs/javaee/maven-entapp.html

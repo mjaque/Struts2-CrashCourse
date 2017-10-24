@@ -1,6 +1,8 @@
 # Aplicación Tomcat
 Vamos a crear una aplicación en Tomcat. Aunque solo tendrá una simple página HTML.
 
+Referencia: http://tomcat.apache.org/
+
 1. Instala el **Servidor de Aplicaciones Apache Tomcat**: Ahora mismo (2017) está en https://tomcat.apache.org/download-80.cgi. Pero si no aparece busca "Apache Tomcat download". Bájalo y descomprímelo en un directorio (que llamaremos <dir_tomcat>).
 2. **Arranca Apache Tomcat**: Desde el directorio <dir_tomcat>/bin ejecuta el comando "./startup.sh" (en Linux). Si usas Windows... piénsatelo. 
 3. **Comprueba Apache Tomcat**: Conéctate con tu navegador a la URL http://localhost:8080. Debe aparecer la página de inicio de Apache Tomcat.

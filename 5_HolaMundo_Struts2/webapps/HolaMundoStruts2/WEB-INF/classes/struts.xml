@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+   "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+   "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<!-- Activamos el modo de depuración. Ya lo quitaremos en producción -->
+	<constant name="struts.devMode" value="true" />
+
+	<package name="paqueteAcciones" extends="struts-default">
+	<!-- Los paquetes sirven para agrupar acciones -->
+		
+		<action name="urlFiltro1" class="Accion1" method="ejecutar">
+			<!-- Al pedir la url /urlFiltro1 (o /urlFiltro1.action
+			se invoca la clase Accion1 y se llama a su método ejecutar. -->
+			
+			<result name="exito">/jsp/pag1.jsp</result>
+			<!-- Si el resultado devuelve "exito", cargamos la página pag1.jsp -->
+			
+		</action>
+	</package>
+
+</struts>

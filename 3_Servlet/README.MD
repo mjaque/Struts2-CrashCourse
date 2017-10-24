@@ -1,9 +1,8 @@
 # Servlet
 Vamos a crear un Servlet en Apache Tomcat. El **Servlet** es un programa Java que se ejecuta en respuesta a una petición HTTP recibida por el Servidor de Aplicaciones.
 
-La documentación técnica está en http://tomcat.apache.org. 
-
-La documentación del Servlet de JavaEE está en http://docs.oracle.com/javaee/7/api/javax/servlet/http/HttpServlet.html.
+Referencia del Servlet de Apache Tomcat: https://jcp.org/aboutJava/communityprocess/final/jsr340/index.html
+La documentación del Servlet de JavaEE está en http://docs.oracle.com/javaee/7/api/javax/servlet/http/HttpServlet.html y http://docs.oracle.com/javaee/7/api/javax/servlet/Servlet.html
 
 1. Crea el fichero <dir_proyecto>/src/ServletHolaMundo.java (tendrás que crear los directorios correspondientes).
 2. Compila el Servlet que has creado. Pero utiliza las librerías de Apache Tomcat. Para ello, desde <dir_proyecto>/src/ ejecuta el comando "javac -classpath <dir_tomcat>/lib/servlet-api.jar ServletHolaMundo.java". Aparecerá ServletHolaMundo.class.

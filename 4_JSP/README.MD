@@ -1,6 +1,8 @@
 # JSP
 Si tuviéramos que generar cada respuesta HTML "a pelo", tendríamos demasiado trabajo. Para poder utilizar archivos con sintaxis HTML, recurrimos a JSP (JavaServer Pages).
 
+Referencia: http://www.oracle.com/technetwork/java/jsp-138432.html
+
 1. Crea el fichero <dir_proyecto>/src/Servlet1.java.
 2. Compila el Servlet que has creado. Pero utiliza las librerías de Apache Tomcat. Para ello, desde <dir_proyecto>/src/ ejecuta el comando "javac -classpath <dir_tomcat>/lib/servlet-api.jar Servlet1.java". Aparecerá Servlet1.class.
 4. Crea los directorios: <dir_proyecto>/webapps/HolaMundoJSP/WEB-INF/classes.
