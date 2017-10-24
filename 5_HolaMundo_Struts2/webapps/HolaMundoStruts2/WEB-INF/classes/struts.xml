@@ -10,7 +10,7 @@
 	<!-- Los paquetes sirven para agrupar acciones -->
 		
 		<action name="urlFiltro1" class="Accion1" method="ejecutar">
-			<!-- Al pedir la url /urlFiltro1 (o /urlFiltro1.action
+			<!-- Al pedir la url /urlFiltro1 (o /urlFiltro1.action)
 			se invoca la clase Accion1 y se llama a su método ejecutar. -->
 			
 			<result name="exito">/jsp/pag1.jsp</result>

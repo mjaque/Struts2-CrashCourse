@@ -34,8 +34,3 @@ Vamos a utilizar NetBeans para facilitarnos el trabajo. NetBeans es un IDE para 
 10. Y por último crea las vistas <dir_proyecto>/src/main/webapp/index.html, <dir_proyecto>/src/main/webapp/WEB-INF/jsp/menuPpal.jsp.
 
 11. Ya puedes ejecutar el proyecto.
-	
-	
-	
-	
-Usar Message Resource con Login.properties
